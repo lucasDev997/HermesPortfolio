@@ -6,13 +6,53 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <h1>Matheus Almeida de Oliveira</h1>
+<ion-content [fullscreen]="true" class="content-background">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+  <main>
+    <section class="logo-hermes">
+      <img src="../../assets/logo/logo-hermes.jpeg" alt="logo-hermes">
+    </section>
+    
+      
+      <ion-grid class="login">
+        
+        <ion-row class="row">
+          <ion-col >
+            <ion-row>
+              <ion-input labelPlacement="floating">
+                <div slot="label">Login</div>
+              </ion-input>
+              <ion-input type="password" labelPlacement="floating">
+                <div slot="label">Senha</div>
+              </ion-input>
+            </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+            <ion-row>
+              <ion-text><a href="">Esqueci minha senha</a></ion-text>
+            </ion-row>
+            
+            <ion-row>
+              <ion-col>
+                <ion-button expand="block">
+                  Entrar
+                </ion-button>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-text>
+                Não tem conta? <a href="">Cadastre-se aqui!</a>
+              </ion-text>
+            </ion-row>
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+  </main>
+  
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>

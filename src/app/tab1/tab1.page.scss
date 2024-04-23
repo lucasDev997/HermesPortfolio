@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+ion-content {
+    --background: #eaede2;
+}
+  
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 2rem;
+
+    /* background-color: #f00808 !important; */
+}
+
+.logo-hermes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 3rem;
+    margin-top: 5rem; */
+    
+}
+
+.logo-hermes img {
+    border-radius: 150px;
+    height: auto;
+    width: 130px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: 2rem;
+}
